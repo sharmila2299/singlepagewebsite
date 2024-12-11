@@ -1,0 +1,291 @@
+/* General Styles */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-weight: bolder;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    color: #261152;
+}
+
+
+.navbar-brand h1 {
+    color: #261152;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 14px;
+}
+
+.navbar-nav .nav-link {
+    color: #261152;
+    font-size: 20px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.btn-info {
+    background-color: #261152 !important;
+    border-color: #261152 !important;
+    color: #fff !important;
+}
+
+.btn-info:hover {
+    background-color: #fff !important;
+    color: #261152 !important;
+    border-color: #261152 !important;
+}
+
+.btn-outline-info {
+    color: #261152 !important;
+    border-color: #261152 !important;
+}
+
+.btn-outline-info:hover {
+    background-color: #261152 !important;
+    color: #fff !important;
+}
+
+.btn-danger:hover {
+    background-color: #a00000 !important;
+}
+
+
+button.custom-hover:hover {
+    background-color: #261152 !important;
+    border-color: #261152 !important;
+    color: #fff !important; 
+}
+
+button.custom-read-more {
+    background-color: rgb(240, 159, 10) !important;
+    color: white !important;
+    border-color: rgb(240, 159, 10) !important;
+}
+
+button.custom-read-more:hover {
+    background-color: white !important;
+    color: #261152 !important;
+    border-color: #261152 !important;
+}
+
+
+#home {
+    background-color: #261152;
+    color: aliceblue;
+    padding: 50px 0;
+}
+
+#home h1 {
+    font-size: 30px;
+}
+
+#home hr {
+    background-color: rgb(221, 148, 13);
+    padding: 2px;
+    margin: 20px auto;
+}
+
+#home p {
+    font-size: 19px;
+    max-width: 550px;
+    color: antiquewhite;
+}
+
+
+#about {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+#about h1 {
+    font-size: 70px;
+}
+
+#about hr {
+    background-color: #261152;
+    padding: 2px;
+    margin-top: -9px;
+}
+
+#about p {
+    font-size: 19px;
+    color: #261152;
+}
+
+
+#news {
+    padding: 50px 0;
+}
+
+#news h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #261152;
+}
+
+#news p {
+    text-align: justify;
+    margin: 20px;
+    font-size: 20px;
+}
+
+#news .btn {
+    font-size: 20px;
+    padding: 12px 40px;
+}
+
+#news .bg-light {
+    border-radius: 20px;
+    background-color: #eeddd6;
+}
+
+#news hr {
+    background-color: #261152;
+    padding: 2px;
+}
+
+#news img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#items {
+    background-color: #261152;
+    color: aliceblue;
+    padding: 50px 0;
+}
+
+#items h1 {
+    font-size: 57px;
+    font-style: italic;
+}
+
+#items hr {
+    background-color: rgb(221, 148, 13);
+    padding: 2px;
+}
+
+
+footer {
+    background-color: #f8f9fa;
+    padding: 15px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #261152;
+    font-size: 20px;
+}
+
+footer i {
+    color: #261152;
+    font-size: 20px;
+}
+
+/* Responsive Styles */
+
+/* Mobile Screens (max-width: 768px) */
+@media (max-width: 800px) {
+    /* Navbar */
+    .navbar-brand h1 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .navbar-nav {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+
+    /* General Adjustments */
+    h1 {
+        font-size: 25px !important;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    section {
+        padding: 20px 0;
+    }
+
+    footer .row {
+        text-align: center;
+    }
+
+    footer .col-md-8, footer .col-md-4 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+/* Tablet Screens (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navbar-brand h1 {
+        font-size: 28px;
+    }
+
+    .navbar-nav {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 48px !important;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 12px 30px;
+    }
+}
+
+/* Small Desktop Screens (1025px to 1366px) */
+@media (min-width: 1025px) and (max-width: 1366px) {
+    h1 {
+        font-size: 40px !important;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 20px;
+        padding: 14px 40px;
+    }
+}
+
